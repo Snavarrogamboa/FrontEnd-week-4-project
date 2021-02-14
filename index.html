@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Planner</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel ="stylesheet" href="style.css">
+   
+   
+<!-- Used the skeleton of the To Do app to configure my app-->
+
+</head>
+<body class="container">
+    
+
+    <br>
+    <div class="card">
+
+        <!--Added a card header to add a title to the page-->
+        <div class="card-header">
+            <h1>Homework Planner</h1>
+        </div>    
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-assignment">Homework Assignment</label>
+                        <input type="text" class="form-control" id="new-assignment" placeholder="Enter Assignment">
+                    </div>
+                </div>
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-due-date">Due Date</label>
+                            <input type="date" class="form-control" id="new-due-date">
+                        </div>
+                    </div> 
+            </div>
+           
+            <div>
+                <button id="add" class="btn btn-primary from-control">Create</button>
+            </div> 
+        </div>
+    </div>
+    
+    <!--Added table with three headers-->
+    <table id="list" class="table table-light table-striped">
+        <tr>
+            <th>Assignment</th>
+            <th>Due Date</th>
+            <th>Clear Assignment</th>
+        </tr>
+    </table>
+    </div>
+
+    
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
+<!--really hapy how it turned out overall-->
+<!--would lick to add more css, still trying to figure out how to incorporate css to bootstrap better-->
+
